@@ -15,6 +15,28 @@
 		ACE00B7D1A5937D80077B139 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE00B7C1A5937D80077B139 /* Images.xcassets */; };
 		ACE00B801A5937D80077B139 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE00B7E1A5937D80077B139 /* LaunchScreen.xib */; };
 		ACE00B8C1A5937D80077B139 /* MD_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE00B8B1A5937D80077B139 /* MD_testTests.m */; };
+		ACE00B971A5BA9850077B139 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00B961A5BA9850077B139 /* CoreBluetooth.framework */; };
+		ACE00B991A5BA9A70077B139 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00B981A5BA9A70077B139 /* CoreLocation.framework */; };
+		ACE00B9B1A5BA9B20077B139 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00B9A1A5BA9B20077B139 /* CoreData.framework */; };
+		ACE00B9D1A5BA9BE0077B139 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00B9C1A5BA9BE0077B139 /* libz.dylib */; };
+		ACE00B9F1A5BA9C80077B139 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00B9E1A5BA9C80077B139 /* MapKit.framework */; };
+		ACE00BA11A5BA9D00077B139 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BA01A5BA9D00077B139 /* Security.framework */; };
+		ACE00BAF1A5BAA380077B139 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BA31A5BAA380077B139 /* Common.framework */; };
+		ACE00BB01A5BAA380077B139 /* ContextCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BA51A5BAA380077B139 /* ContextCore.framework */; };
+		ACE00BB11A5BAA380077B139 /* ContextLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BA71A5BAA380077B139 /* ContextLocation.framework */; };
+		ACE00BB21A5BAA380077B139 /* DataModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BA91A5BAA380077B139 /* DataModels.bundle */; };
+		ACE00BB31A5BAA380077B139 /* ContextProfiling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BAB1A5BAA380077B139 /* ContextProfiling.framework */; };
+		ACE00BB41A5BAA380077B139 /* FYX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BAC1A5BAA380077B139 /* FYX.framework */; };
+		ACE00BB51A5BAA380077B139 /* NetworkServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE00BAE1A5BAA380077B139 /* NetworkServices.framework */; };
+		ACE00BBB1A5CB7820077B139 /* EventList.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE00BBA1A5CB7820077B139 /* EventList.m */; };
+		ACE00BC21A5DCF530077B139 /* TestIconTrans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BC11A5DCF530077B139 /* TestIconTrans.jpg */; };
+		ACE00BC51A5DD00E0077B139 /* TestReviewBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BC31A5DD00E0077B139 /* TestReviewBg.jpg */; };
+		ACE00BC61A5DD00E0077B139 /* TestReviewIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BC41A5DD00E0077B139 /* TestReviewIcon.jpg */; };
+		ACE00BC91A5DF63A0077B139 /* SwaramBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BC71A5DF63A0077B139 /* SwaramBig.jpg */; };
+		ACE00BCA1A5DF63A0077B139 /* SwaramSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BC81A5DF63A0077B139 /* SwaramSmall.jpg */; };
+		ACE00BCC1A5DF7D10077B139 /* SwaramGoldSpot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BCB1A5DF7D10077B139 /* SwaramGoldSpot.jpg */; };
+		ACE00BCF1A5E6DFE0077B139 /* ReviewIcon1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BCD1A5E6DFE0077B139 /* ReviewIcon1.jpeg */; };
+		ACE00BD01A5E6DFE0077B139 /* ReviewIcon2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACE00BCE1A5E6DFE0077B139 /* ReviewIcon2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +65,29 @@
 		ACE00B851A5937D80077B139 /* MD-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE00B8A1A5937D80077B139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE00B8B1A5937D80077B139 /* MD_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD_testTests.m; sourceTree = "<group>"; };
+		ACE00B961A5BA9850077B139 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		ACE00B981A5BA9A70077B139 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ACE00B9A1A5BA9B20077B139 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ACE00B9C1A5BA9BE0077B139 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		ACE00B9E1A5BA9C80077B139 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ACE00BA01A5BA9D00077B139 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ACE00BA31A5BAA380077B139 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		ACE00BA51A5BAA380077B139 /* ContextCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextCore.framework; sourceTree = "<group>"; };
+		ACE00BA71A5BAA380077B139 /* ContextLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextLocation.framework; sourceTree = "<group>"; };
+		ACE00BA91A5BAA380077B139 /* DataModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DataModels.bundle; sourceTree = "<group>"; };
+		ACE00BAB1A5BAA380077B139 /* ContextProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextProfiling.framework; sourceTree = "<group>"; };
+		ACE00BAC1A5BAA380077B139 /* FYX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYX.framework; sourceTree = "<group>"; };
+		ACE00BAE1A5BAA380077B139 /* NetworkServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkServices.framework; sourceTree = "<group>"; };
+		ACE00BB91A5CB7820077B139 /* EventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventList.h; sourceTree = "<group>"; };
+		ACE00BBA1A5CB7820077B139 /* EventList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventList.m; sourceTree = "<group>"; };
+		ACE00BC11A5DCF530077B139 /* TestIconTrans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestIconTrans.jpg; sourceTree = "<group>"; };
+		ACE00BC31A5DD00E0077B139 /* TestReviewBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestReviewBg.jpg; sourceTree = "<group>"; };
+		ACE00BC41A5DD00E0077B139 /* TestReviewIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestReviewIcon.jpg; sourceTree = "<group>"; };
+		ACE00BC71A5DF63A0077B139 /* SwaramBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwaramBig.jpg; sourceTree = "<group>"; };
+		ACE00BC81A5DF63A0077B139 /* SwaramSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwaramSmall.jpg; sourceTree = "<group>"; };
+		ACE00BCB1A5DF7D10077B139 /* SwaramGoldSpot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwaramGoldSpot.jpg; sourceTree = "<group>"; };
+		ACE00BCD1A5E6DFE0077B139 /* ReviewIcon1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReviewIcon1.jpeg; sourceTree = "<group>"; };
+		ACE00BCE1A5E6DFE0077B139 /* ReviewIcon2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReviewIcon2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +95,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE00BA11A5BA9D00077B139 /* Security.framework in Frameworks */,
+				ACE00B9F1A5BA9C80077B139 /* MapKit.framework in Frameworks */,
+				ACE00BB41A5BAA380077B139 /* FYX.framework in Frameworks */,
+				ACE00B9D1A5BA9BE0077B139 /* libz.dylib in Frameworks */,
+				ACE00BB31A5BAA380077B139 /* ContextProfiling.framework in Frameworks */,
+				ACE00B9B1A5BA9B20077B139 /* CoreData.framework in Frameworks */,
+				ACE00B991A5BA9A70077B139 /* CoreLocation.framework in Frameworks */,
+				ACE00BB51A5BAA380077B139 /* NetworkServices.framework in Frameworks */,
+				ACE00BAF1A5BAA380077B139 /* Common.framework in Frameworks */,
+				ACE00BB11A5BAA380077B139 /* ContextLocation.framework in Frameworks */,
+				ACE00B971A5BA9850077B139 /* CoreBluetooth.framework in Frameworks */,
+				ACE00BB01A5BAA380077B139 /* ContextCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +124,18 @@
 			isa = PBXGroup;
 			children = (
 				ACE00B6B1A5937D70077B139 /* MD-test */,
+				ACE00BA21A5BAA380077B139 /* Common.embeddedframework */,
+				ACE00BA41A5BAA380077B139 /* ContextCore.embeddedframework */,
+				ACE00BA61A5BAA380077B139 /* ContextLocation.embeddedframework */,
+				ACE00BAA1A5BAA380077B139 /* ContextProfiling.embeddedframework */,
+				ACE00BAC1A5BAA380077B139 /* FYX.framework */,
+				ACE00BAD1A5BAA380077B139 /* NetworkServices.embeddedframework */,
+				ACE00BA01A5BA9D00077B139 /* Security.framework */,
+				ACE00B9E1A5BA9C80077B139 /* MapKit.framework */,
+				ACE00B9C1A5BA9BE0077B139 /* libz.dylib */,
+				ACE00B9A1A5BA9B20077B139 /* CoreData.framework */,
+				ACE00B981A5BA9A70077B139 /* CoreLocation.framework */,
+				ACE00B961A5BA9850077B139 /* CoreBluetooth.framework */,
 				ACE00B881A5937D80077B139 /* MD-testTests */,
 				ACE00B6A1A5937D70077B139 /* Products */,
 			);
@@ -84,6 +153,7 @@
 		ACE00B6B1A5937D70077B139 /* MD-test */ = {
 			isa = PBXGroup;
 			children = (
+				ACE00BC01A5DCF530077B139 /* Images */,
 				ACE00B701A5937D70077B139 /* AppDelegate.h */,
 				ACE00B711A5937D70077B139 /* AppDelegate.m */,
 				ACE00B731A5937D70077B139 /* MasterViewController.h */,
@@ -94,6 +164,8 @@
 				ACE00B7C1A5937D80077B139 /* Images.xcassets */,
 				ACE00B7E1A5937D80077B139 /* LaunchScreen.xib */,
 				ACE00B6C1A5937D70077B139 /* Supporting Files */,
+				ACE00BB91A5CB7820077B139 /* EventList.h */,
+				ACE00BBA1A5CB7820077B139 /* EventList.m */,
 			);
 			path = "MD-test";
 			sourceTree = "<group>";
@@ -114,7 +186,7 @@
 				ACE00B891A5937D80077B139 /* Supporting Files */,
 			);
 			path = "MD-testTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		ACE00B891A5937D80077B139 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -122,6 +194,70 @@
 				ACE00B8A1A5937D80077B139 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE00BA21A5BAA380077B139 /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BA31A5BAA380077B139 /* Common.framework */,
+			);
+			path = Common.embeddedframework;
+			sourceTree = "<group>";
+		};
+		ACE00BA41A5BAA380077B139 /* ContextCore.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BA51A5BAA380077B139 /* ContextCore.framework */,
+			);
+			path = ContextCore.embeddedframework;
+			sourceTree = "<group>";
+		};
+		ACE00BA61A5BAA380077B139 /* ContextLocation.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BA71A5BAA380077B139 /* ContextLocation.framework */,
+				ACE00BA81A5BAA380077B139 /* Resources */,
+			);
+			path = ContextLocation.embeddedframework;
+			sourceTree = "<group>";
+		};
+		ACE00BA81A5BAA380077B139 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BA91A5BAA380077B139 /* DataModels.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACE00BAA1A5BAA380077B139 /* ContextProfiling.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BAB1A5BAA380077B139 /* ContextProfiling.framework */,
+			);
+			path = ContextProfiling.embeddedframework;
+			sourceTree = "<group>";
+		};
+		ACE00BAD1A5BAA380077B139 /* NetworkServices.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BAE1A5BAA380077B139 /* NetworkServices.framework */,
+			);
+			path = NetworkServices.embeddedframework;
+			sourceTree = "<group>";
+		};
+		ACE00BC01A5DCF530077B139 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACE00BCD1A5E6DFE0077B139 /* ReviewIcon1.jpeg */,
+				ACE00BCE1A5E6DFE0077B139 /* ReviewIcon2.jpeg */,
+				ACE00BC71A5DF63A0077B139 /* SwaramBig.jpg */,
+				ACE00BCB1A5DF7D10077B139 /* SwaramGoldSpot.jpg */,
+				ACE00BC81A5DF63A0077B139 /* SwaramSmall.jpg */,
+				ACE00BC31A5DD00E0077B139 /* TestReviewBg.jpg */,
+				ACE00BC41A5DD00E0077B139 /* TestReviewIcon.jpg */,
+				ACE00BC11A5DCF530077B139 /* TestIconTrans.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +341,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE00B7B1A5937D80077B139 /* Main.storyboard in Resources */,
+				ACE00BCF1A5E6DFE0077B139 /* ReviewIcon1.jpeg in Resources */,
+				ACE00BC91A5DF63A0077B139 /* SwaramBig.jpg in Resources */,
+				ACE00BD01A5E6DFE0077B139 /* ReviewIcon2.jpeg in Resources */,
+				ACE00BCA1A5DF63A0077B139 /* SwaramSmall.jpg in Resources */,
 				ACE00B801A5937D80077B139 /* LaunchScreen.xib in Resources */,
+				ACE00BC51A5DD00E0077B139 /* TestReviewBg.jpg in Resources */,
+				ACE00BC61A5DD00E0077B139 /* TestReviewIcon.jpg in Resources */,
+				ACE00BCC1A5DF7D10077B139 /* SwaramGoldSpot.jpg in Resources */,
 				ACE00B7D1A5937D80077B139 /* Images.xcassets in Resources */,
+				ACE00BB21A5BAA380077B139 /* DataModels.bundle in Resources */,
+				ACE00BC21A5DCF530077B139 /* TestIconTrans.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE00B721A5937D70077B139 /* AppDelegate.m in Sources */,
+				ACE00BBB1A5CB7820077B139 /* EventList.m in Sources */,
 				ACE00B751A5937D70077B139 /* MasterViewController.m in Sources */,
 				ACE00B6F1A5937D70077B139 /* main.m in Sources */,
 				ACE00B781A5937D80077B139 /* DetailViewController.m in Sources */,
@@ -349,9 +495,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Common.embeddedframework",
+					"$(PROJECT_DIR)/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetworkServices.embeddedframework",
+				);
 				INFOPLIST_FILE = "MD-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +515,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Common.embeddedframework",
+					"$(PROJECT_DIR)/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetworkServices.embeddedframework",
+				);
 				INFOPLIST_FILE = "MD-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +584,7 @@
 				ACE00B911A5937D80077B139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE00B921A5937D80077B139 /* Build configuration list for PBXNativeTarget "MD-testTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +593,7 @@
 				ACE00B941A5937D80077B139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

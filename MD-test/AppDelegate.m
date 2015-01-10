@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import <FYX/FYX.h>
+
 
 @interface AppDelegate ()
 
@@ -15,9 +17,19 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [FYX setAppId:@"94721dd572355a819968561f54d4489e486a2ecd0f3faa06e37b248e79e9a064"
+         appSecret:@"e8afe4042533a1d466cda861a4446dcb310830c203b94fad24d4b7ecf99295e2"
+      callbackUrl:@"selfappnideasmdtest://authcode"];
+    
+    /*this will pause main thread for x interval seconds.
+     put on the top of application:didFinishLaunchingWithOptions, so it will not
+     proceed to show window until sleep interval is finished.*/
+    
+    [NSThread sleepForTimeInterval:2]; //add 5 seconds longer.
+    
     return YES;
 }
 
